@@ -27,7 +27,7 @@
    2. Unsupervised Learning
    3. Reinforcement Learning
 
-<p>*What are labels and features?*</p>
+<p><i>What are labels and features?</i></p>
   <span>feature is input & label is output</span>
 <ul>
 <li>feature: one column of the data in your input set. For instance, if you're trying to identify an object, your input features might include age, home region, family income, etc.</li>
