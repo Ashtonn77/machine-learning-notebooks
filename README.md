@@ -22,6 +22,10 @@
   <p>Data is fed to the machine, an algorithm is selected, hyperparameters (settings) are configured and adjusted, and the machine is instructed to conduct its analysis. The machine proceeds to decipher patterns found in the data through the process of trial and error. The machine’s data model, formed from analyzing data patterns, can then be used to predict future values.</p>
   <p>The machine formulates decisions based on experience and mimicks the process of human-based decision-making.</p>
 
+## Training and Testing
+<p>In machine learning, data is split into training data and test data. The first split of data, i.e. the initial reserve of data you use to develop your model, provides the training data.</p>
+<p>After you have successfully developed a model based on the training data and are satisfied with its accuracy, you can then test the model on the remaining data, known as the test data. Once you are satisfied with the results of both the training data and test data, the machine learning model is ready.</p>
+
 ## The three overarching categories of machine learning:
    1. Supervised Learning
    2. Unsupervised Learning
@@ -36,4 +40,9 @@
 
 ### Supervised Learning
   As the first branch of machine learning, supervised learning concentrates on learning patterns through connecting the relationship between variables and known outcomes and working with labeled datasets. Supervised learning works by feeding the machine sample data with various features (represented as “X”) and the correct value output of the data(represented as “y”). The fact that the output and feature values are known qualifies the dataset as “labeled.” The algorithm then deciphers patterns that exist in the data and creates a model that can reproduce the same underlying rules with new data.
+  
+### Unsupervised Learning
+  In the case of unsupervised learning, not all variables and data patterns are classified. Instead, the machine must uncover hidden patterns and create labels through the use of unsupervised learning algorithms. Unsupervised learning algorithms typically group together data points that are found to possess similar features.
    
+### Reinforcement Learning
+  Reinforcement learning is the third and most advanced algorithm category among the three previously mentioned. Unlike supervised and unsupervised learning, reinforcement learning continuously improves its model by leveraging feedback from previous iterations. This is different to supervised and unsupervised learning, which both reach an indefinite endpoint after a model is formulated from the training and test data segments.
